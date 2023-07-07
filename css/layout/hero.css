@@ -1,0 +1,63 @@
+.heroSection{
+    display: flex;
+    position: relative;
+    justify-content: end;
+}
+.heroInfo{
+    position: absolute;
+    left: 0;
+    width: 60%;
+}
+.heroInfo > p{
+    margin: 3rem 0;
+}
+.searchBox{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 32.6rem;
+    padding: 0.8rem;
+    margin: 3rem 0 6rem 0;
+} 
+.searchBox > input{
+    width: 80%;
+    height: 3.2rem;
+    color: #999;
+    border: none;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.searchBox > span {
+    width: 3.2rem;
+    height: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn-bg-color);
+    cursor: pointer;
+}
+.heroInfo > p{
+    padding-right: 17rem;
+}
+
+.heroImg{
+    width: 56%;
+}
+.heroImg > img{
+    width: 100%;
+    height: 100%;
+}
+.heroBottom{
+    width: 14.5rem;
+    height: 12rem;
+    position: absolute;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    background-color: var(--header-bg-color);
+    gap: 1rem;
+    bottom: 0;
+    left: 44%;
+}

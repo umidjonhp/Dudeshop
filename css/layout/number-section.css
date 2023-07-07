@@ -1,0 +1,29 @@
+.num{
+    background-color: var(--header-bg-color);
+    margin: 13rem 0;
+}
+.numberSection{
+    padding: 5.8rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.number > span{
+    font-weight: 700;
+    font-size: 5.6rem;
+    line-height: 7rem;
+    color: var(--h3-color);
+    border-bottom: 3px solid var(--h3-color);
+}
+.number > p{
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: var(--primary-color);
+}

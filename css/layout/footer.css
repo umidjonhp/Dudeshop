@@ -1,0 +1,83 @@
+footer{
+    background-color: var(--footer-bg-color);
+}
+.footerTop{
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10.3rem 0 5.9rem;
+}
+.emailInput{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 32.6rem;
+    padding: 0.8rem;
+}
+.emailInput > input{
+    width: 80%;
+    height: 3.2rem;
+    color: #999;
+    border: none;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.emailInput > button{
+    background-color: var(--btn-bg-color);
+    color: var(--color-fff);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: center; 
+    padding: 1rem 2rem;
+}
+/********* footer Bottom ************/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5.9rem 0 5.2rem;
+}
+.footerMenuLogo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.8rem;
+}
+.footerMenuLogo > h4{
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-style: italic;
+    color: var(--h3-color);
+    text-decoration: underline;
+}
+.footerMenuLogo > p{
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+.footerMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footerMenu > h5{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: var(--h3-color);
+    margin-bottom: 1.9rem;
+}
+.footerMenu > li > a{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var(--h3-color);
+}
+.footerMenu > li{
+    display: flex;
+    gap: 2.7rem;   
+}

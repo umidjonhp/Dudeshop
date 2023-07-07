@@ -1,0 +1,72 @@
+.beauty{
+    display: flex;
+    flex-direction: column;
+    gap: 13rem;
+    margin-bottom: 13rem;
+}
+.box{
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+}
+.boxInfo{
+    width: 51%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+.boxInfo > h2{
+    margin-right: 12rem;
+} 
+.boxInfo > button{
+    margin-top: 2rem;
+}
+.boxImg{
+    width: 49%; 
+}
+.boxImg > img{
+    width: 100%;
+    height: 100%;
+}
+.boxInfo > h3{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: var(--h3-color);
+}
+.stars{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+.girlName{
+    display: flex;
+    flex-direction: column;
+}
+.girlName > span{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: var(--h3-color);
+}
+.girlName > p{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.4;
+    color: var(--primary-color);
+}
+.girlIcon{
+    display: flex;
+    gap: 2rem;
+}
+.girlIcon > span{
+    padding: 0.8rem;
+    border: 1px solid #6FB58726;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.girlIcon > span:last-child{
+    border: 1px solid #6FB587;
+}

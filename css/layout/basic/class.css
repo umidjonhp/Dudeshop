@@ -1,0 +1,44 @@
+h1{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 5.6rem;
+    line-height: 7rem;
+    color: var(--h1-color);
+    padding-right: 3rem;
+}
+h2{
+    font-size: 5rem;
+    line-height: 7rem;
+    color: var(--h1-color);
+}
+h3{
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 6rem;
+    color: var(--h3-color);
+}
+.text{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    color: var(--primary-color);
+}
+.btn{
+    background-color: var(--btn-bg-color);
+    color: var(--color-fff);
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    text-align: center; 
+    padding: 1.6rem 3.2rem;
+}
+.btnn{
+    color: var(--btn-bg-color);
+    background-color: var(--color-fff);
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    text-align: center; 
+    padding: 1.6rem 3.2rem;
+    border: 1px solid #685A5275;
+}

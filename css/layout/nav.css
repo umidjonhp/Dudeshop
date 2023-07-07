@@ -1,0 +1,37 @@
+header{
+    background-color: var(--header-bg-color);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:4rem 0 6rem;
+}
+.navLogo > span{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    font-style: italic;
+    color: var(--h3-color);
+    text-decoration: underline;
+}
+.navIteams{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+.navIteams > li > a{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var(--h3-color);
+}
+.navIcon{
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+}
+.navIcon > span > img{
+    width: 100%;
+    height: 100%;
+}   

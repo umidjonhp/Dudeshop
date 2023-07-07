@@ -1,0 +1,13 @@
+.logoSection{
+    margin: 13rem 0;
+    display: flex;
+    align-items: center;
+    padding: 4.25rem;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    gap: 12rem;
+}
+.logoSection > span > img{
+    width: 100%;
+    height: 100%;
+}
