@@ -11,3 +11,20 @@
     width: 100%;
     height: 100%;
 }
+
+/**** Media ***/
+
+@media only screen and (max-width: 992px){
+    .logoSection{
+        margin: 10rem 0;
+        padding: 4rem;
+        gap: 10rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .logoSection{
+        margin: 6rem 0;
+        gap: 6rem;
+        padding: 3.5rem;
+    }
+}

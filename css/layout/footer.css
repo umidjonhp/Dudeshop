@@ -81,3 +81,33 @@ footer{
     display: flex;
     gap: 2.7rem;   
 }
+
+/**** Media ***/
+
+@media only screen and (max-width: 992px){
+    .emailInput{
+        width: 31rem;
+        padding: 0.8rem;
+    }
+    .emailInput > input{
+        height: 3rem;
+    }
+    .emailInput > button{
+        font-size: 1.2rem;
+        padding: 0.8rem 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .emailInput{
+        width: 28rem;
+        padding: 0.6rem;
+    }
+    .emailInput > input{
+        height: 2rem;
+    }
+    .emailInput > button{
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+    }
+}

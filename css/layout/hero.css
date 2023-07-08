@@ -61,3 +61,38 @@
     bottom: 0;
     left: 44%;
 }
+
+/**** Media ***/
+
+@media only screen and (max-width: 992px){
+    .heroSection{
+        padding-bottom: 1rem;
+    }
+    .heroInfo > p{
+        margin: 1.8rem 0;
+    }
+    .searchBox{
+        width: 30rem ;
+         margin: 1.5rem 0 4rem 0;
+    }
+    .heroBottom{
+        width: 12rem;
+        height: 10rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .heroSection{
+        padding-bottom: 1rem;
+    }
+    .heroInfo > p{
+        margin: 1rem 0;
+    }
+    .searchBox{
+        width: 25rem ;
+         margin: 1.5rem 0 3rem 0;
+    }
+    .heroBottom{
+        width: 8rem;
+        height: 9rem;
+    }
+}

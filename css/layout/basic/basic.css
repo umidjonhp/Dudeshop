@@ -40,3 +40,10 @@ button{
  max-width: 124rem;
  margin: 0 auto;
 }
+
+/**** Media ***/
+@media only screen and (max-width: 992px){
+  .container{
+    padding: 0 1rem; 
+   }
+}

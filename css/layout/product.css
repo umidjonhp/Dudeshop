@@ -58,3 +58,47 @@
     line-height: 3.2rem;
     color: var(--h3-color);
 }
+
+/**** Media ***/
+
+@media only screen and (max-width: 992px){
+    .discover > p{
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+    .productCardes{
+        gap: 0rem;
+    }
+    .cardInfo{
+        padding: 2.8rem;
+    }
+    .cardInfoBottom > span{
+        font-size: 2.8rem;
+        line-height: 3rem;
+    }
+    .buttun{
+        gap: 3rem !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    .discover{
+        gap: 0.5rem;
+    }
+    .discover > p{
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+    .productCardes{
+        gap: 0rem;
+    }
+    .cardInfo{
+        padding: 2rem;
+    }
+    .cardInfoBottom > span{
+        font-size: 2.5rem;
+        line-height: 2rem;
+    }
+    .buttun{
+        gap: 1.6rem !important;
+    }
+}

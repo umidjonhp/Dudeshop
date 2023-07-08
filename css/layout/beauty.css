@@ -70,3 +70,28 @@
 .girlIcon > span:last-child{
     border: 1px solid #6FB587;
 }
+
+/**** Media ***/
+
+@media only screen and (max-width: 992px){
+    .boxInfo > h2{
+        margin-right: 10rem;
+    } 
+    .boxInfo{
+        gap: 1.5rem;
+    }
+    .boxInfo > p{
+        font-size: 1.6rem !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    .boxInfo > h2{
+        margin-right: 5rem;
+    } 
+    .boxInfo{
+        gap: 1rem;
+    }
+    .boxInfo > p{
+        font-size: 1.4rem !important;
+    }
+}

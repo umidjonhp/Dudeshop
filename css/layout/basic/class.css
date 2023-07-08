@@ -42,3 +42,65 @@ h3{
     padding: 1.6rem 3.2rem;
     border: 1px solid #685A5275;
 }
+
+
+
+/**** Media ***/
+
+@media only screen and (max-width: 992px){
+    h1{
+        font-size: 4.5rem !important;
+        line-height: 6rem !important;
+    }
+    .text{
+        font-size: 1.8rem !important;  
+    }
+    .btn{
+        font-size: 1.6rem;
+        line-height: 2rem;
+        padding: 1.4rem 2.8rem;
+    }
+    h2{
+        font-size: 4.5rem;
+        line-height: 6rem;
+    }
+    h3{
+        font-weight: 500;
+        font-size: 3.5rem;
+        line-height: 5rem;
+    }
+    .btnn{
+        font-size: 1.6rem;
+        line-height: 2rem;
+        padding: 1.4rem 2.8rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 3.5rem !important;
+        line-height: 4rem !important;
+    }
+    .text{
+        font-size: 1.6rem !important;
+        line-height: 2rem;  
+    }
+    .btn{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        padding: 1.2rem 2.6rem;
+    }
+    h2{
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+    h3{
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .btnn{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        padding: 1.2rem 2.6rem;
+    }
+}
