@@ -102,3 +102,30 @@
         gap: 1.6rem !important;
     }
 }
+@media only screen and (max-width: 480px){
+    .porductText{
+       flex-direction: column;
+       align-items: center;
+       gap: 1rem;
+    }
+    .porductText > .text{
+        width: 100%;
+        text-align: center;
+    }
+    .discover{
+        gap: 0.5rem;
+        
+    }
+    .productCardes{
+        flex-direction: column;
+    }
+    .porductCard{
+        width: 100%;
+    }
+    .discover > p{
+        font-size: 2rem;
+    }
+    .cardInfo{
+        padding: 2.5rem;
+    }
+}

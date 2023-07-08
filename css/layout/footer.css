@@ -111,3 +111,32 @@ footer{
         padding: 0.5rem 1.5rem;
     }
 }
+@media only screen and (max-width: 480px){
+    .footerTop{
+        flex-direction: column;
+        padding: 5rem 0 2rem;
+        gap: 1rem;
+    }
+    .emailInput{
+        width: 80%;
+        padding: 0.6rem;
+    }
+    .emailInput > input{
+        height: 3rem;
+    }
+    .emailInput > button{
+        font-size: 1.5rem;
+        padding: 0.5rem 1.5rem;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footerMenuLogo{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 2rem;
+        margin-bottom: 4rem;
+    }
+}

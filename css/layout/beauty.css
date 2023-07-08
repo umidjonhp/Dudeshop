@@ -95,3 +95,28 @@
         font-size: 1.4rem !important;
     }
 }
+@media only screen and (max-width: 480px){
+    .beauty{
+        gap: 4rem; 
+    }
+    .box{
+        flex-direction: column;
+    }
+    .box:last-child{
+        flex-direction: column-reverse;
+    }
+    .boxInfo{
+        width: 100%;
+        align-items: center; 
+        text-align: center;   
+    }
+    .boxInfo > h2{
+        margin: 0 !important;
+    } 
+    .boxImg{
+        width: 100%;
+    }
+    .girlName{
+        align-items: center;
+    }
+}

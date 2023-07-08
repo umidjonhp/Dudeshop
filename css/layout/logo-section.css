@@ -28,3 +28,11 @@
         padding: 3.5rem;
     }
 }
+@media only screen and (max-width: 480px){
+    .logoSection{
+        margin: 6rem 0;
+        gap: 2rem;
+        padding: 3rem;
+    }
+        
+}

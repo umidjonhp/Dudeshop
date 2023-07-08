@@ -56,3 +56,8 @@ nav{
         gap: 1.8rem;
     }
 }
+@media only screen and (max-width: 480px){
+    .navIteams{
+        display: none;
+    }
+}

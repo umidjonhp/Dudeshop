@@ -27,3 +27,16 @@
     line-height: 3rem;
     color: var(--primary-color);
 }
+
+/**** Media ***/
+
+@media only screen and (max-width: 480px){
+    .numberSection{
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 4rem 0;
+    }
+    .number{
+        gap: 0.5rem;
+    } 
+}
